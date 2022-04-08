@@ -70,7 +70,7 @@ const transformersFilter = () => {
 
 }
 
-/*
+/* BONUS - OPTIONAL
 Reduce Transformers
 Using reduce, return an object that has a count for each team of transformer
 result: {
@@ -120,12 +120,18 @@ const sumPositiveElement = () => {
 
 
 /* 
-Calculate median and mean
-Calculate the mean and median values of the number elements from the input array.
+Calculate median 
+Calculate the mean value of the number elements from the input array.
 
-Use: reduce, sort, Math.abs
+Use: reduce, sort, 
 */
-//result: { mean: 38.5, median: 32 }
+//result: 38.5
+
+const mean = () => {
+    const input = [12, 46, 32, 64]
+}
+
+//BONUS - calculate mean and median and return as object: { mean: 38.5, median: 32 } use Math.abs
 const medianMean = () => {
     const input = [12, 46, 32, 64]
 }
